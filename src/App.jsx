@@ -20,13 +20,13 @@ import { useSelector } from 'react-redux';
 import { AuthPath, CustomerPath, DashboardPath, DefinitionPath, EventsPath, HotspotPath, IssuesPath, MisfirePath, ScorePath, ShopPath, SurveysPath } from './Constant/Pages_Routes.jsx';
 import AuthCommon from './auth/AuthCommon.jsx';
 import ForgotPassword from './auth/ForgotPassword.jsx';
-import Layout from './common/layout.jsx';
 import { Component, useEffect, useMemo, useState } from 'react';
 import { getCookie } from './utils/Cookies.jsx';
 import ProtectedRoutes from './Guards/ProtectedRoutes.jsx';
 import NotFound from './pages/NotFound/NotFound.jsx';
 import ChangePassword from './auth/ChangePassword.jsx';
 import { ToastContainer } from 'react-toastify';
+import Layout from './common/Layout.jsx'
 
 const App = () => {
   const [isAuthenticated,setAuthenticated] = useState('')
