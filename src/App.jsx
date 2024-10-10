@@ -103,7 +103,8 @@ const PerfectScore = React.lazy(() => import('./pages/PerfectScore/Perfect_score
 const Misfire = React.lazy(() => import('./pages/Misfire/Misfire.jsx'));
 const ForgotPassword = React.lazy(() => import('./auth/ForgotPassword.jsx'));
 const ChangePassword = React.lazy(() => import('./auth/ChangePassword.jsx'));
-const Layout = React.lazy(() => import('./common/layout.jsx'));
+// const Layout = React.lazy(() => import('./common/layout.jsx'));
+import Layout from './common/layout.jsx';
 
 // import Layout from './common/layout.jsx';
 
